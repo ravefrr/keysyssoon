@@ -1,0 +1,70 @@
+:root {
+    --logo-top: 15px;
+    --logo-left: 30px;
+}
+
+body {
+    background-color: #0a0a0a; /* Dark grey background */
+    color: #8b0505; /* Dark red text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: var(--logo-top);
+    left: var(--logo-left);
+}
+
+.logo {
+    font-size: 36px;
+    color: #8b0505;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    position: absolute;
+    top: var(--logo-top);
+    left: 50px; /* Adjust this value to move the text more to the right */
+    background-color: rgba(10, 10, 10, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #8b0505; /* Dark red */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #0a0a0a;
+    background-color: #8b0505; /* Dark red */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #7a0404; /* Slightly darker red on hover */
+}
+
+.key-text {
+    padding: 1px;
+}
